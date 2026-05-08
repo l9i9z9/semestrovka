@@ -1,0 +1,11 @@
+public class TestCase {
+    public final String text;
+    public final String pattern;
+    public final int expectedCount;
+
+    public TestCase(String text, String pattern, int expectedCount) {
+        this.text = text;
+        this.pattern = pattern;
+        this.expectedCount = expectedCount;
+    }
+}
